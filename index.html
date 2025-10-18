@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Weather Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>My Simple Website</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <h2>Welcome!</h2>
+    <p>Get the current weather in your city below.</p>
+
+    <div class="weather-box">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button onclick="getWeather()">Check Weather</button>
+      <div id="weatherResult"></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
